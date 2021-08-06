@@ -1,0 +1,85 @@
+.main{
+    height: 100%;
+    width: 100%;
+    background-image: url("https://previews.123rf.com/images/destinacigdem/destinacigdem1702/destinacigdem170200051/71762043-tic-tac-toe-game-isolated-on-white-background-3d-illustration-.jpg");
+    overflow: hidden;
+    background-repeat: repeat;
+    background-size: 171px 126px;
+    position: absolute;
+    margin: auto;
+
+}
+
+.main2{
+    height: 659px;;
+    width: 100%;
+    overflow: hidden;
+    background-size: 171px 128px;
+    background-color: rgb(159, 153, 153, 0.5);
+    margin: auto;
+    position: absolute;
+}
+
+
+h1{
+    color: hsl(283, 83%, 33%, 1);
+    font-size: 50px;
+    font-family: 'Kalam', cursive;
+    cursor: default;
+    margin: 0px 2px 0px 0px;
+    
+}
+
+#ins{
+    margin: 0px 0px 0px 0px;
+    font-size: 18px;
+    font-family: 'Kalam', cursive;
+    color: hsl(283, 83%, 33%, 1);
+    cursor: default;
+    line-height: 1;
+}
+
+.grid{
+    height: 75%;
+    width: 25%;
+    text-align: center;
+    background-color: hsla(194, 100%, 64%, 0.89);
+    margin: 80px 0px 0px 495px;
+    border-radius: 5%;
+}
+.grid input{
+    height: 45px;
+    width: 80px;
+    margin: auto;
+    border: 1px solid hsl(283, 83%, 33%, 1);
+    text-align: center;
+    border-radius: 6px;
+    font-size: 30px;
+    cursor: default;
+    background-color: white;
+    position: relative;   
+    color: hsl(283, 83%, 33%, 1);
+}
+
+#print{
+    margin: 3px 0px 5px 0px;
+    font-size: 25px;
+    font-family: 'Tajawal', sans-serif;
+    color:hsl(283, 83%, 33%, 1);
+    
+}
+
+#btn{
+    width: 100px;
+    height: 40px;
+    border: 1px solid hsl(283, 83%, 33%, 1);
+    border-radius: 4px;
+    background-color: hsl(283, 83%, 33%, 1);
+    color: white;
+    font-size: 20px;
+    font-family: 'Tajawal', sans-serif;
+    cursor: pointer;
+    margin: 8px 0px 0px 0px;
+    position: relative;
+}
+
